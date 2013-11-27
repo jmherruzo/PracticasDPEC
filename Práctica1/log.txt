@@ -1,0 +1,88 @@
+
+ --------  Prueba con bucle original ---------
+
+Prueba 0:
+	L1 -> Accesos: 15424643  Aciertos: 15260733  Fallos: 163910
+	L2 -> Accesos: 163910  Aciertos: 151635
+Prueba 1:
+	L1 -> Accesos: 15153580  Aciertos: 14831102  Fallos: 322478
+	L2 -> Accesos: 322478  Aciertos: 304424
+Prueba 2:
+	L1 -> Accesos: 15160613  Aciertos: 14838104  Fallos: 322509
+	L2 -> Accesos: 322509  Aciertos: 304173
+Prueba 3:
+	L1 -> Accesos: 15160197  Aciertos: 14837695  Fallos: 322502
+	L2 -> Accesos: 322502  Aciertos: 304397
+Prueba 4:
+	L1 -> Accesos: 15163454  Aciertos: 14840950  Fallos: 322504
+	L2 -> Accesos: 322504  Aciertos: 304311
+Prueba 5:
+	L1 -> Accesos: 15151995  Aciertos: 14829142  Fallos: 322853
+	L2 -> Accesos: 322853  Aciertos: 304402
+Prueba 6:
+	L1 -> Accesos: 15159675  Aciertos: 14837043  Fallos: 322632
+	L2 -> Accesos: 322632  Aciertos: 304267
+Prueba 7:
+	L1 -> Accesos: 15153316  Aciertos: 14830832  Fallos: 322484
+	L2 -> Accesos: 322484  Aciertos: 304379
+Prueba 8:
+	L1 -> Accesos: 15170420  Aciertos: 14847917  Fallos: 322503
+	L2 -> Accesos: 322503  Aciertos: 305283
+Prueba 9:
+	L1 -> Accesos: 15153834  Aciertos: 14831348  Fallos: 322486
+	L2 -> Accesos: 322486  Aciertos: 304456
+
+Valores medios:
+	Caché L1:
+		Accesos: 15185172  
+		Aciertos: 14878486  
+		Fallos: 306686 
+		Porcentaje de acierto: 97
+	Caché L2:
+		Accesos: 306686  
+		Aciertos: 289172  
+		Porcentaje de acierto: 94
+
+ --------  Prueba con bucle permutado --------- 
+
+Prueba 0:
+	L1 -> Accesos: 18207631  Aciertos: 11804635  Fallos: 6402996
+	L2 -> Accesos: 6402996  Aciertos: 5111907
+Prueba 1:
+	L1 -> Accesos: 18216700  Aciertos: 11817608  Fallos: 6399092
+	L2 -> Accesos: 6399092  Aciertos: 5096859
+Prueba 2:
+	L1 -> Accesos: 18216118  Aciertos: 11816206  Fallos: 6399912
+	L2 -> Accesos: 6399912  Aciertos: 5114989
+Prueba 3:
+	L1 -> Accesos: 18213382  Aciertos: 11814488  Fallos: 6398894
+	L2 -> Accesos: 6398894  Aciertos: 5107581
+Prueba 4:
+	L1 -> Accesos: 18215664  Aciertos: 11816538  Fallos: 6399126
+	L2 -> Accesos: 6399126  Aciertos: 5110045
+Prueba 5:
+	L1 -> Accesos: 18215059  Aciertos: 11816005  Fallos: 6399054
+	L2 -> Accesos: 6399054  Aciertos: 5060738
+Prueba 6:
+	L1 -> Accesos: 18214120  Aciertos: 11815013  Fallos: 6399107
+	L2 -> Accesos: 6399107  Aciertos: 5107506
+Prueba 7:
+	L1 -> Accesos: 18213735  Aciertos: 11813827  Fallos: 6399908
+	L2 -> Accesos: 6399908  Aciertos: 5101555
+Prueba 8:
+	L1 -> Accesos: 18214842  Aciertos: 11815256  Fallos: 6399586
+	L2 -> Accesos: 6399586  Aciertos: 5107619
+Prueba 9:
+	L1 -> Accesos: 18216790  Aciertos: 11817158  Fallos: 6399632
+	L2 -> Accesos: 6399632  Aciertos: 5117556
+
+Valores medios:
+	Caché L1:
+		Accesos: 18214404  
+		Aciertos: 11814673  
+		Fallos: 6399730 
+		Porcentaje de acierto: 64
+	Caché L2:
+		Accesos: 6399730  
+		Aciertos: 5103635  
+		Porcentaje de acierto: 79
