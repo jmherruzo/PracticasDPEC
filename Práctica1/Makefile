@@ -16,6 +16,6 @@ O2:
 runO2:O2
 	./papi
 	
-logO2:runO2
+logO2:O2
 	./papi > logO2.txt
 	
