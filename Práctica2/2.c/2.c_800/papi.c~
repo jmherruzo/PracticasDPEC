@@ -2,8 +2,8 @@
 #include <papi.h>
 #include <stdlib.h>
 
-#define TAM 20
-#define BUCLE 20
+#define TAM 2200
+#define BUCLE 2000
 #define EVENT_COUNT 5
 #define TEST_NUM 10
 

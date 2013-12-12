@@ -80,11 +80,11 @@ int main()
     //iniciarMatrizB();
 
     printf("\n --------  Prueba con bucle original ---------\n\n");
-
+  
     for(i=0; i<TEST_NUM; i++)
     {
 	//Iniciamos la cuenta de eventos
-	if (PAPI_start_counters(events, EVENT_COUNT) != PAPI_OK)
+	if (PAPI_started_counters(events, EVENT_COUNT) != PAPI_OK)
 	{
 	    fprintf(stderr, "ERROR Starting counters!\n");
 	    exit(1);
@@ -93,7 +93,7 @@ int main()
 	bucle();
 	
 	//Leemos el valor de un contador:
-	if (PAPI_stop_counters(values, EVENT_COUNT) != PAPI_OK)
+	if (PAPI_stopped_counters(values, EVENT_COUNT) != PAPI_OK)
 	{
 	    fprintf(stderr, "ERROR Reading counters!\n");
 	    exit(1);

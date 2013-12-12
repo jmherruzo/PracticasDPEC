@@ -1,0 +1,88 @@
+
+ --------  Prueba con bucle original ---------
+
+Prueba 0:
+	L1 -> Accesos: 2184101  Aciertos: 2180137  Fallos: 3964
+	L2 -> Accesos: 3964  Aciertos: 3580
+Prueba 1:
+	L1 -> Accesos: 2144076  Aciertos: 2120931  Fallos: 23145
+	L2 -> Accesos: 23145  Aciertos: 22192
+Prueba 2:
+	L1 -> Accesos: 2145211  Aciertos: 2122123  Fallos: 23088
+	L2 -> Accesos: 23088  Aciertos: 22454
+Prueba 3:
+	L1 -> Accesos: 2144551  Aciertos: 2121470  Fallos: 23081
+	L2 -> Accesos: 23081  Aciertos: 22256
+Prueba 4:
+	L1 -> Accesos: 2144411  Aciertos: 2121277  Fallos: 23134
+	L2 -> Accesos: 23134  Aciertos: 22188
+Prueba 5:
+	L1 -> Accesos: 2144327  Aciertos: 2121198  Fallos: 23129
+	L2 -> Accesos: 23129  Aciertos: 22145
+Prueba 6:
+	L1 -> Accesos: 2144203  Aciertos: 2121036  Fallos: 23167
+	L2 -> Accesos: 23167  Aciertos: 22113
+Prueba 7:
+	L1 -> Accesos: 2144215  Aciertos: 2121083  Fallos: 23132
+	L2 -> Accesos: 23132  Aciertos: 22140
+Prueba 8:
+	L1 -> Accesos: 2144369  Aciertos: 2121236  Fallos: 23133
+	L2 -> Accesos: 23133  Aciertos: 22262
+Prueba 9:
+	L1 -> Accesos: 2145016  Aciertos: 2121855  Fallos: 23161
+	L2 -> Accesos: 23161  Aciertos: 22043
+
+Valores medios:
+	Caché L1:
+		Accesos: 2148448  
+		Aciertos: 2127234  
+		Fallos: 21213 
+		Porcentaje de acierto: 99
+	Caché L2:
+		Accesos: 21213  
+		Aciertos: 20337  
+		Porcentaje de acierto: 95
+
+ --------  Prueba con bucle permutado --------- 
+
+Prueba 0:
+	L1 -> Accesos: 2404023  Aciertos: 2042643  Fallos: 361380
+	L2 -> Accesos: 361380  Aciertos: 338610
+Prueba 1:
+	L1 -> Accesos: 2403832  Aciertos: 2041994  Fallos: 361838
+	L2 -> Accesos: 361838  Aciertos: 338915
+Prueba 2:
+	L1 -> Accesos: 2403826  Aciertos: 2042283  Fallos: 361543
+	L2 -> Accesos: 361543  Aciertos: 338669
+Prueba 3:
+	L1 -> Accesos: 2404092  Aciertos: 2042543  Fallos: 361549
+	L2 -> Accesos: 361549  Aciertos: 338608
+Prueba 4:
+	L1 -> Accesos: 2404180  Aciertos: 2042968  Fallos: 361212
+	L2 -> Accesos: 361212  Aciertos: 338420
+Prueba 5:
+	L1 -> Accesos: 2403988  Aciertos: 2042507  Fallos: 361481
+	L2 -> Accesos: 361481  Aciertos: 338530
+Prueba 6:
+	L1 -> Accesos: 2403520  Aciertos: 2042051  Fallos: 361469
+	L2 -> Accesos: 361469  Aciertos: 338615
+Prueba 7:
+	L1 -> Accesos: 2402584  Aciertos: 2040771  Fallos: 361813
+	L2 -> Accesos: 361813  Aciertos: 338910
+Prueba 8:
+	L1 -> Accesos: 2403953  Aciertos: 2042392  Fallos: 361561
+	L2 -> Accesos: 361561  Aciertos: 338813
+Prueba 9:
+	L1 -> Accesos: 2403914  Aciertos: 2042381  Fallos: 361533
+	L2 -> Accesos: 361533  Aciertos: 338564
+
+Valores medios:
+	Caché L1:
+		Accesos: 2403791  
+		Aciertos: 2042253  
+		Fallos: 361537 
+		Porcentaje de acierto: 84
+	Caché L2:
+		Accesos: 361537  
+		Aciertos: 338665  
+		Porcentaje de acierto: 93
