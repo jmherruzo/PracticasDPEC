@@ -2,87 +2,87 @@
  --------  Prueba con bucle original ---------
 
 Prueba 0:
-	L1 -> Accesos: 8223664  Aciertos: 8202154  Fallos: 21510
-	L2 -> Accesos: 21510  Aciertos: 18219
+	L1 -> Accesos: 8217921  Aciertos: 8200532  Fallos: 17389
+	L2 -> Accesos: 17389  Aciertos: 15303
 Prueba 1:
-	L1 -> Accesos: 8229912  Aciertos: 7977480  Fallos: 252432
-	L2 -> Accesos: 252432  Aciertos: 145729
+	L1 -> Accesos: 8212465  Aciertos: 7960048  Fallos: 252417
+	L2 -> Accesos: 252417  Aciertos: 165992
 Prueba 2:
-	L1 -> Accesos: 8225919  Aciertos: 7973508  Fallos: 252411
-	L2 -> Accesos: 252411  Aciertos: 167113
+	L1 -> Accesos: 8258115  Aciertos: 8005719  Fallos: 252396
+	L2 -> Accesos: 252396  Aciertos: 132231
 Prueba 3:
-	L1 -> Accesos: 8219797  Aciertos: 7967379  Fallos: 252418
-	L2 -> Accesos: 252418  Aciertos: 174786
+	L1 -> Accesos: 8223764  Aciertos: 7971336  Fallos: 252428
+	L2 -> Accesos: 252428  Aciertos: 176383
 Prueba 4:
-	L1 -> Accesos: 8219943  Aciertos: 7967525  Fallos: 252418
-	L2 -> Accesos: 252418  Aciertos: 174346
+	L1 -> Accesos: 8262907  Aciertos: 8010490  Fallos: 252417
+	L2 -> Accesos: 252417  Aciertos: 206781
 Prueba 5:
-	L1 -> Accesos: 8221836  Aciertos: 7969428  Fallos: 252408
-	L2 -> Accesos: 252408  Aciertos: 174353
+	L1 -> Accesos: 8242114  Aciertos: 7989726  Fallos: 252388
+	L2 -> Accesos: 252388  Aciertos: 190772
 Prueba 6:
-	L1 -> Accesos: 8217484  Aciertos: 7965057  Fallos: 252427
-	L2 -> Accesos: 252427  Aciertos: 174394
+	L1 -> Accesos: 8251076  Aciertos: 7998640  Fallos: 252436
+	L2 -> Accesos: 252436  Aciertos: 192453
 Prueba 7:
-	L1 -> Accesos: 8224282  Aciertos: 7971876  Fallos: 252406
-	L2 -> Accesos: 252406  Aciertos: 173639
+	L1 -> Accesos: 8233744  Aciertos: 7981269  Fallos: 252475
+	L2 -> Accesos: 252475  Aciertos: 184020
 Prueba 8:
-	L1 -> Accesos: 8223657  Aciertos: 7971242  Fallos: 252415
-	L2 -> Accesos: 252415  Aciertos: 175019
+	L1 -> Accesos: 8250167  Aciertos: 7997767  Fallos: 252400
+	L2 -> Accesos: 252400  Aciertos: 191637
 Prueba 9:
-	L1 -> Accesos: 8224876  Aciertos: 7972459  Fallos: 252417
-	L2 -> Accesos: 252417  Aciertos: 176918
+	L1 -> Accesos: 8226385  Aciertos: 7973978  Fallos: 252407
+	L2 -> Accesos: 252407  Aciertos: 174544
 
 Valores medios:
 	Caché L1:
-		Accesos: 8223137  
-		Aciertos: 7993810  
-		Fallos: 229326 
+		Accesos: 8237865  
+		Aciertos: 8008950  
+		Fallos: 228915 
 		Porcentaje de acierto: 97
 	Caché L2:
-		Accesos: 229326  
-		Aciertos: 155451  
-		Porcentaje de acierto: 67
+		Accesos: 228915  
+		Aciertos: 163011  
+		Porcentaje de acierto: 71
 
  --------  Prueba con bucle permutado --------- 
 
 Prueba 0:
-	L1 -> Accesos: 16001844  Aciertos: 9919638  Fallos: 6082206
-	L2 -> Accesos: 6082206  Aciertos: 5455637
+	L1 -> Accesos: 16002177  Aciertos: 9920070  Fallos: 6082107
+	L2 -> Accesos: 6082107  Aciertos: 5463916
 Prueba 1:
-	L1 -> Accesos: 16001218  Aciertos: 9920406  Fallos: 6080812
-	L2 -> Accesos: 6080812  Aciertos: 5453178
+	L1 -> Accesos: 16001782  Aciertos: 9920400  Fallos: 6081382
+	L2 -> Accesos: 6081382  Aciertos: 5461498
 Prueba 2:
-	L1 -> Accesos: 16000919  Aciertos: 9919316  Fallos: 6081603
-	L2 -> Accesos: 6081603  Aciertos: 5456790
+	L1 -> Accesos: 16001103  Aciertos: 9919636  Fallos: 6081467
+	L2 -> Accesos: 6081467  Aciertos: 5475838
 Prueba 3:
-	L1 -> Accesos: 16001446  Aciertos: 9919760  Fallos: 6081686
-	L2 -> Accesos: 6081686  Aciertos: 5456226
+	L1 -> Accesos: 16000941  Aciertos: 9918485  Fallos: 6082456
+	L2 -> Accesos: 6082456  Aciertos: 5493437
 Prueba 4:
-	L1 -> Accesos: 16000807  Aciertos: 9918696  Fallos: 6082111
-	L2 -> Accesos: 6082111  Aciertos: 5456936
+	L1 -> Accesos: 16001307  Aciertos: 9919657  Fallos: 6081650
+	L2 -> Accesos: 6081650  Aciertos: 5492105
 Prueba 5:
-	L1 -> Accesos: 16001006  Aciertos: 9919022  Fallos: 6081984
-	L2 -> Accesos: 6081984  Aciertos: 5454580
+	L1 -> Accesos: 16001082  Aciertos: 9918790  Fallos: 6082292
+	L2 -> Accesos: 6082292  Aciertos: 5489257
 Prueba 6:
-	L1 -> Accesos: 16001109  Aciertos: 9918741  Fallos: 6082368
-	L2 -> Accesos: 6082368  Aciertos: 5454980
+	L1 -> Accesos: 16000864  Aciertos: 9918914  Fallos: 6081950
+	L2 -> Accesos: 6081950  Aciertos: 5494703
 Prueba 7:
-	L1 -> Accesos: 16000928  Aciertos: 9918685  Fallos: 6082243
-	L2 -> Accesos: 6082243  Aciertos: 5456968
+	L1 -> Accesos: 16001107  Aciertos: 9918241  Fallos: 6082866
+	L2 -> Accesos: 6082866  Aciertos: 5494960
 Prueba 8:
-	L1 -> Accesos: 16000808  Aciertos: 9918131  Fallos: 6082677
-	L2 -> Accesos: 6082677  Aciertos: 5455080
+	L1 -> Accesos: 16000812  Aciertos: 9919460  Fallos: 6081352
+	L2 -> Accesos: 6081352  Aciertos: 5493905
 Prueba 9:
-	L1 -> Accesos: 16000764  Aciertos: 9918656  Fallos: 6082108
-	L2 -> Accesos: 6082108  Aciertos: 5456800
+	L1 -> Accesos: 16001101  Aciertos: 9919549  Fallos: 6081552
+	L2 -> Accesos: 6081552  Aciertos: 5494903
 
 Valores medios:
 	Caché L1:
-		Accesos: 16001084  
-		Aciertos: 9919105  
-		Fallos: 6081979 
+		Accesos: 16001227  
+		Aciertos: 9919320  
+		Fallos: 6081907 
 		Porcentaje de acierto: 61
 	Caché L2:
-		Accesos: 6081979  
-		Aciertos: 5455717  
-		Porcentaje de acierto: 89
+		Accesos: 6081907  
+		Aciertos: 5485452  
+		Porcentaje de acierto: 90

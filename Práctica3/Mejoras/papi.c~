@@ -2,20 +2,23 @@
 #include <papi.h>
 #include <stdlib.h>
 
-#define TAM 2200
-#define BUCLE 2000
-#define EVENT_COUNT 5
+#define TAM 8192
+#define BUCLE 4000
+#define EVENT_COUNT 4
 #define TEST_NUM 10
 
-int A[TAM][TAM], B[TAM][TAM];
+float A[TAM][TAM],Aux[1000],  B[TAM][TAM];
 
 //Inicializa la matriz B
 void iniciarMatrizB()
 {
   int i,j;
-  for(i=0;i<TAM;i++)
-    for(j=0;j<TAM;j++)
+  for(i=0;i<2000;i++)
+    for(j=0;j<2000;j++)
+    {
       B[i][j]=i*j;
+      A[i][j]=i*j;
+    }
 }
 
 //Realiza el bucle con los coeficientes i j colocados en la mejor posición
@@ -25,7 +28,7 @@ void bucle()
   
   for(i=0;i<BUCLE;i++)
     for(j=0;j<BUCLE;j++)
-      A[i][j]=B[i][j];
+      A[i][j]=B[j][i];
 }
 
 //Realiza el bucle con los coeficientes i j permutados
@@ -35,7 +38,7 @@ void buclePermutado()
   
   for(j=0;j<BUCLE;j++)
     for(i=0;i<BUCLE;i++)
-      A[i][j]=B[i][j];
+      A[i][j]=B[j][i];
 }
 
 int main()
@@ -46,7 +49,7 @@ int main()
     int EventSet = PAPI_NULL;
     long long totales[EVENT_COUNT], totalesPerm[EVENT_COUNT];
     
-    int events[] = {PAPI_L1_DCM, PAPI_L1_DCH, PAPI_L1_DCA, PAPI_L2_DCH, PAPI_L2_DCA};
+    int events[] = {PAPI_L1_DCM,  PAPI_TOT_CYC, PAPI_L2_DCH, PAPI_L2_DCA};
     long long values[EVENT_COUNT];
     
     
@@ -104,8 +107,9 @@ int main()
 	  totales[j]+=values[j];      
 	}
 
-	printf("Prueba %d:\n\tL1 -> Accesos: %lld  Aciertos: %lld  Fallos: %lld\n", i, values[2], values[1], values[0]);
-	printf("\tL2 -> Accesos: %lld  Aciertos: %lld\n",  values[4], values[3]);
+	printf("Prueba %d:\n\tL1 ->  Fallos: %lld\n", i, values[0]);
+	printf("\tL2 -> Accesos: %lld  Aciertos: %lld\n",  values[3], values[2]);
+	printf("\tCiclos: %lld", values[1]);
     }
     
     //Calculamos los valores medios:
@@ -115,10 +119,10 @@ int main()
     }
     
     printf("\nValores medios:\n");
-    printf("\tCaché L1:\n\t\tAccesos: %lld  \n\t\tAciertos: %lld  \n\t\tFallos: %lld \n\t\tPorcentaje de acierto: %lld\n",  
-	   totales[2], totales[1], totales[0], 100*totales[1]/totales[2]);
+    printf("\tCaché L1: \n\t\tFallos: %lld\n",  totales[0]);
     printf("\tCaché L2:\n\t\tAccesos: %lld  \n\t\tAciertos: %lld  \n\t\tPorcentaje de acierto: %lld\n",
-	   totales[4], totales[3], 100*totales[3]/(totales[4]));
+	   totales[3], totales[2], 100*totales[2]/(totales[3]));
+    printf("\tCiclos: %lld\n", totales[1]);
     
     
     
@@ -150,8 +154,9 @@ int main()
 	  totalesPerm[j]+=values[j];      
 	}
 	
-	printf("Prueba %d:\n\tL1 -> Accesos: %lld  Aciertos: %lld  Fallos: %lld\n", i, values[2], values[1], values[0]);
-	printf("\tL2 -> Accesos: %lld  Aciertos: %lld\n",  values[4], values[3]);
+	printf("Prueba %d:\n\tL1 ->  Fallos: %lld\n", i, values[0]);
+	printf("\tL2 -> Accesos: %lld  Aciertos: %lld\n",  values[3], values[2]);
+	printf("\tCiclos: %lld", values[1]);
 
     }
 
@@ -165,10 +170,10 @@ int main()
 
     
     printf("\nValores medios:\n");
-    printf("\tCaché L1:\n\t\tAccesos: %lld  \n\t\tAciertos: %lld  \n\t\tFallos: %lld \n\t\tPorcentaje de acierto: %lld\n",  
-	   totalesPerm[2], totalesPerm[1], totalesPerm[0], 100*totalesPerm[1]/totalesPerm[2]);
+    printf("\tCaché L1: \n\t\tFallos: %lld\n",  totalesPerm[0]);
     printf("\tCaché L2:\n\t\tAccesos: %lld  \n\t\tAciertos: %lld  \n\t\tPorcentaje de acierto: %lld\n",
-	   totalesPerm[4], totalesPerm[3], 100*totalesPerm[3]/(+totalesPerm[4]));
+	   totalesPerm[3], totalesPerm[2], 100*totalesPerm[2]/(totalesPerm[3]));
+    printf("\tCiclos: %lld\n", totalesPerm[1]);
     
     
     return 0;

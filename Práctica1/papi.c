@@ -15,7 +15,10 @@ void iniciarMatrizB()
   int i,j;
   for(i=0;i<2000;i++)
     for(j=0;j<2000;j++)
+    {
       B[i][j]=i*j;
+      A[i][j]=i*j;
+    }
 }
 
 //Realiza el bucle con los coeficientes i j colocados en la mejor posición
@@ -116,6 +119,7 @@ int main()
 	   totales[2], totales[1], totales[0], 100*totales[1]/totales[2]);
     printf("\tCaché L2:\n\t\tAccesos: %lld  \n\t\tAciertos: %lld  \n\t\tPorcentaje de acierto: %lld\n",
 	   totales[4], totales[3], 100*totales[3]/(totales[4]));
+    //printf("\tNúmero de ciclos: %lld", totales[5]);
     
     
     
@@ -158,6 +162,7 @@ int main()
 	   totalesPerm[2], totalesPerm[1], totalesPerm[0], 100*totalesPerm[1]/totalesPerm[2]);
     printf("\tCaché L2:\n\t\tAccesos: %lld  \n\t\tAciertos: %lld  \n\t\tPorcentaje de acierto: %lld\n",
 	   totalesPerm[4], totalesPerm[3], 100*totalesPerm[3]/(+totalesPerm[4]));
+    //printf("\tNúmero de ciclos: %lld", totalesPerm[5]);
     
     return 0;
     

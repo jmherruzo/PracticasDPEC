@@ -13,9 +13,12 @@ int A[TAM][TAM], B[TAM][TAM];
 void iniciarMatrizB()
 {
   int i,j;
-  for(i=0;i<TAM;i++)
-    for(j=0;j<TAM;j++)
+  for(i=0;i<2000;i++)
+    for(j=0;j<2000;j++)
+    {
       B[i][j]=i*j;
+      A[i][j]=i*j;
+    }
 }
 
 //Realiza el bucle con los coeficientes i j colocados en la mejor posición

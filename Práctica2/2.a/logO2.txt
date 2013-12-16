@@ -2,87 +2,87 @@
  --------  Prueba con bucle original ---------
 
 Prueba 0:
-	L1 -> Accesos: 1951  Aciertos: 1844  Fallos: 107
-	L2 -> Accesos: 107  Aciertos: 44
+	L1 -> Accesos: 1946  Aciertos: 1836  Fallos: 110
+	L2 -> Accesos: 110  Aciertos: 53
 Prueba 1:
-	L1 -> Accesos: 1015  Aciertos: 947  Fallos: 68
-	L2 -> Accesos: 68  Aciertos: 56
-Prueba 2:
-	L1 -> Accesos: 1008  Aciertos: 940  Fallos: 68
-	L2 -> Accesos: 68  Aciertos: 61
-Prueba 3:
 	L1 -> Accesos: 1017  Aciertos: 947  Fallos: 70
-	L2 -> Accesos: 70  Aciertos: 60
+	L2 -> Accesos: 70  Aciertos: 59
+Prueba 2:
+	L1 -> Accesos: 1024  Aciertos: 948  Fallos: 76
+	L2 -> Accesos: 76  Aciertos: 55
+Prueba 3:
+	L1 -> Accesos: 1022  Aciertos: 953  Fallos: 69
+	L2 -> Accesos: 69  Aciertos: 48
 Prueba 4:
-	L1 -> Accesos: 1027  Aciertos: 955  Fallos: 72
-	L2 -> Accesos: 72  Aciertos: 62
+	L1 -> Accesos: 1003  Aciertos: 928  Fallos: 75
+	L2 -> Accesos: 75  Aciertos: 59
 Prueba 5:
-	L1 -> Accesos: 1022  Aciertos: 952  Fallos: 70
-	L2 -> Accesos: 70  Aciertos: 53
+	L1 -> Accesos: 1030  Aciertos: 956  Fallos: 74
+	L2 -> Accesos: 74  Aciertos: 55
 Prueba 6:
-	L1 -> Accesos: 1023  Aciertos: 954  Fallos: 69
-	L2 -> Accesos: 69  Aciertos: 58
+	L1 -> Accesos: 1003  Aciertos: 930  Fallos: 73
+	L2 -> Accesos: 73  Aciertos: 63
 Prueba 7:
-	L1 -> Accesos: 1037  Aciertos: 966  Fallos: 71
-	L2 -> Accesos: 71  Aciertos: 60
+	L1 -> Accesos: 1024  Aciertos: 955  Fallos: 69
+	L2 -> Accesos: 69  Aciertos: 51
 Prueba 8:
-	L1 -> Accesos: 1025  Aciertos: 956  Fallos: 69
-	L2 -> Accesos: 69  Aciertos: 57
+	L1 -> Accesos: 1022  Aciertos: 950  Fallos: 72
+	L2 -> Accesos: 72  Aciertos: 57
 Prueba 9:
-	L1 -> Accesos: 1035  Aciertos: 966  Fallos: 69
-	L2 -> Accesos: 69  Aciertos: 63
+	L1 -> Accesos: 1013  Aciertos: 944  Fallos: 69
+	L2 -> Accesos: 69  Aciertos: 52
 
 Valores medios:
 	Caché L1:
-		Accesos: 1116  
-		Aciertos: 1042  
-		Fallos: 73 
+		Accesos: 1110  
+		Aciertos: 1034  
+		Fallos: 75 
 		Porcentaje de acierto: 93
 	Caché L2:
-		Accesos: 73  
-		Aciertos: 57  
-		Porcentaje de acierto: 78
+		Accesos: 75  
+		Aciertos: 55  
+		Porcentaje de acierto: 73
 
  --------  Prueba con bucle permutado --------- 
 
 Prueba 0:
-	L1 -> Accesos: 1042  Aciertos: 972  Fallos: 70
-	L2 -> Accesos: 70  Aciertos: 55
+	L1 -> Accesos: 990  Aciertos: 927  Fallos: 63
+	L2 -> Accesos: 63  Aciertos: 37
 Prueba 1:
-	L1 -> Accesos: 1029  Aciertos: 961  Fallos: 68
-	L2 -> Accesos: 68  Aciertos: 58
+	L1 -> Accesos: 1012  Aciertos: 940  Fallos: 72
+	L2 -> Accesos: 72  Aciertos: 41
 Prueba 2:
-	L1 -> Accesos: 1048  Aciertos: 980  Fallos: 68
-	L2 -> Accesos: 68  Aciertos: 61
+	L1 -> Accesos: 1028  Aciertos: 955  Fallos: 73
+	L2 -> Accesos: 73  Aciertos: 42
 Prueba 3:
-	L1 -> Accesos: 1022  Aciertos: 952  Fallos: 70
-	L2 -> Accesos: 70  Aciertos: 57
+	L1 -> Accesos: 1027  Aciertos: 959  Fallos: 68
+	L2 -> Accesos: 68  Aciertos: 36
 Prueba 4:
-	L1 -> Accesos: 1021  Aciertos: 952  Fallos: 69
-	L2 -> Accesos: 69  Aciertos: 55
+	L1 -> Accesos: 1009  Aciertos: 938  Fallos: 71
+	L2 -> Accesos: 71  Aciertos: 50
 Prueba 5:
-	L1 -> Accesos: 1025  Aciertos: 954  Fallos: 71
-	L2 -> Accesos: 71  Aciertos: 60
+	L1 -> Accesos: 1029  Aciertos: 960  Fallos: 69
+	L2 -> Accesos: 69  Aciertos: 25
 Prueba 6:
-	L1 -> Accesos: 1021  Aciertos: 950  Fallos: 71
-	L2 -> Accesos: 71  Aciertos: 65
+	L1 -> Accesos: 1024  Aciertos: 953  Fallos: 71
+	L2 -> Accesos: 71  Aciertos: 34
 Prueba 7:
-	L1 -> Accesos: 1031  Aciertos: 963  Fallos: 68
-	L2 -> Accesos: 68  Aciertos: 47
+	L1 -> Accesos: 1015  Aciertos: 942  Fallos: 73
+	L2 -> Accesos: 73  Aciertos: 31
 Prueba 8:
-	L1 -> Accesos: 1048  Aciertos: 978  Fallos: 70
-	L2 -> Accesos: 70  Aciertos: 57
+	L1 -> Accesos: 1011  Aciertos: 941  Fallos: 70
+	L2 -> Accesos: 70  Aciertos: 39
 Prueba 9:
-	L1 -> Accesos: 1031  Aciertos: 961  Fallos: 70
-	L2 -> Accesos: 70  Aciertos: 58
+	L1 -> Accesos: 991  Aciertos: 922  Fallos: 69
+	L2 -> Accesos: 69  Aciertos: 32
 
 Valores medios:
 	Caché L1:
-		Accesos: 1031  
-		Aciertos: 962  
+		Accesos: 1013  
+		Aciertos: 943  
 		Fallos: 69 
 		Porcentaje de acierto: 93
 	Caché L2:
 		Accesos: 69  
-		Aciertos: 57  
-		Porcentaje de acierto: 82
+		Aciertos: 36  
+		Porcentaje de acierto: 52

@@ -2,87 +2,83 @@
  --------  Prueba con bucle original ---------
 
 Prueba 0:
-	L1 -> Accesos: 751849  Aciertos: 750712  Fallos: 1137
-	L2 -> Accesos: 1137  Aciertos: 858
-Prueba 1:
-	L1 -> Accesos: 746741  Aciertos: 723666  Fallos: 23075
-	L2 -> Accesos: 23075  Aciertos: 20910
-Prueba 2:
-	L1 -> Accesos: 746232  Aciertos: 723160  Fallos: 23072
-	L2 -> Accesos: 23072  Aciertos: 21539
-Prueba 3:
-	L1 -> Accesos: 746565  Aciertos: 723420  Fallos: 23145
-	L2 -> Accesos: 23145  Aciertos: 21166
-Prueba 4:
-	L1 -> Accesos: 746070  Aciertos: 722993  Fallos: 23077
-	L2 -> Accesos: 23077  Aciertos: 21559
-Prueba 5:
-	L1 -> Accesos: 746339  Aciertos: 723265  Fallos: 23074
-	L2 -> Accesos: 23074  Aciertos: 21669
-Prueba 6:
-	L1 -> Accesos: 746333  Aciertos: 723259  Fallos: 23074
-	L2 -> Accesos: 23074  Aciertos: 21749
-Prueba 7:
-	L1 -> Accesos: 746122  Aciertos: 723052  Fallos: 23070
-	L2 -> Accesos: 23070  Aciertos: 21602
-Prueba 8:
-	L1 -> Accesos: 746145  Aciertos: 723049  Fallos: 23096
-	L2 -> Accesos: 23096  Aciertos: 21501
-Prueba 9:
-	L1 -> Accesos: 746130  Aciertos: 723054  Fallos: 23076
-	L2 -> Accesos: 23076  Aciertos: 21586
-
+	L1 ->  Fallos: 10305
+	L2 -> Accesos: 10305  Aciertos: 9218
+	Ciclos: 2015486Prueba 1:
+	L1 ->  Fallos: 23123
+	L2 -> Accesos: 23123  Aciertos: 19458
+	Ciclos: 751143Prueba 2:
+	L1 ->  Fallos: 23072
+	L2 -> Accesos: 23072  Aciertos: 21963
+	Ciclos: 747306Prueba 3:
+	L1 ->  Fallos: 23076
+	L2 -> Accesos: 23076  Aciertos: 21417
+	Ciclos: 746688Prueba 4:
+	L1 ->  Fallos: 23073
+	L2 -> Accesos: 23073  Aciertos: 21502
+	Ciclos: 746696Prueba 5:
+	L1 ->  Fallos: 23075
+	L2 -> Accesos: 23075  Aciertos: 22044
+	Ciclos: 745252Prueba 6:
+	L1 ->  Fallos: 23072
+	L2 -> Accesos: 23072  Aciertos: 21398
+	Ciclos: 746577Prueba 7:
+	L1 ->  Fallos: 23070
+	L2 -> Accesos: 23070  Aciertos: 21643
+	Ciclos: 746252Prueba 8:
+	L1 ->  Fallos: 23132
+	L2 -> Accesos: 23132  Aciertos: 21554
+	Ciclos: 750675Prueba 9:
+	L1 ->  Fallos: 23075
+	L2 -> Accesos: 23075  Aciertos: 21600
+	Ciclos: 746821
 Valores medios:
-	Caché L1:
-		Accesos: 746852  
-		Aciertos: 725963  
-		Fallos: 20889 
-		Porcentaje de acierto: 97
+	Caché L1: 
+		Fallos: 21807
 	Caché L2:
-		Accesos: 20889  
-		Aciertos: 19413  
+		Accesos: 21807  
+		Aciertos: 20179  
 		Porcentaje de acierto: 92
+	Ciclos: 874289
 
  --------  Prueba con bucle permutado --------- 
 
 Prueba 0:
-	L1 -> Accesos: 1440293  Aciertos: 1078077  Fallos: 362216
-	L2 -> Accesos: 362216  Aciertos: 470
-Prueba 1:
-	L1 -> Accesos: 1440392  Aciertos: 1078121  Fallos: 362271
-	L2 -> Accesos: 362271  Aciertos: 417
-Prueba 2:
-	L1 -> Accesos: 1440367  Aciertos: 1078090  Fallos: 362277
-	L2 -> Accesos: 362277  Aciertos: 418
-Prueba 3:
-	L1 -> Accesos: 1440366  Aciertos: 1078139  Fallos: 362227
-	L2 -> Accesos: 362227  Aciertos: 404
-Prueba 4:
-	L1 -> Accesos: 1440397  Aciertos: 1078121  Fallos: 362276
-	L2 -> Accesos: 362276  Aciertos: 424
-Prueba 5:
-	L1 -> Accesos: 1440377  Aciertos: 1078108  Fallos: 362269
-	L2 -> Accesos: 362269  Aciertos: 398
-Prueba 6:
-	L1 -> Accesos: 1440344  Aciertos: 1078073  Fallos: 362271
-	L2 -> Accesos: 362271  Aciertos: 432
-Prueba 7:
-	L1 -> Accesos: 1440307  Aciertos: 1078113  Fallos: 362194
-	L2 -> Accesos: 362194  Aciertos: 408
-Prueba 8:
-	L1 -> Accesos: 1440350  Aciertos: 1078150  Fallos: 362200
-	L2 -> Accesos: 362200  Aciertos: 463
-Prueba 9:
-	L1 -> Accesos: 1440332  Aciertos: 1078113  Fallos: 362219
-	L2 -> Accesos: 362219  Aciertos: 466
-
+	L1 ->  Fallos: 362242
+	L2 -> Accesos: 362242  Aciertos: 365
+	Ciclos: 18814300Prueba 1:
+	L1 ->  Fallos: 362676
+	L2 -> Accesos: 362676  Aciertos: 655
+	Ciclos: 18864824Prueba 2:
+	L1 ->  Fallos: 362516
+	L2 -> Accesos: 362516  Aciertos: 551
+	Ciclos: 18832240Prueba 3:
+	L1 ->  Fallos: 362595
+	L2 -> Accesos: 362595  Aciertos: 585
+	Ciclos: 18842273Prueba 4:
+	L1 ->  Fallos: 362516
+	L2 -> Accesos: 362516  Aciertos: 549
+	Ciclos: 18837535Prueba 5:
+	L1 ->  Fallos: 362541
+	L2 -> Accesos: 362541  Aciertos: 603
+	Ciclos: 18853248Prueba 6:
+	L1 ->  Fallos: 362544
+	L2 -> Accesos: 362544  Aciertos: 528
+	Ciclos: 18842121Prueba 7:
+	L1 ->  Fallos: 362552
+	L2 -> Accesos: 362552  Aciertos: 560
+	Ciclos: 19178362Prueba 8:
+	L1 ->  Fallos: 362514
+	L2 -> Accesos: 362514  Aciertos: 508
+	Ciclos: 18836991Prueba 9:
+	L1 ->  Fallos: 362601
+	L2 -> Accesos: 362601  Aciertos: 568
+	Ciclos: 18841962
 Valores medios:
-	Caché L1:
-		Accesos: 1440352  
-		Aciertos: 1078110  
-		Fallos: 362242 
-		Porcentaje de acierto: 74
+	Caché L1: 
+		Fallos: 362529
 	Caché L2:
-		Accesos: 362242  
-		Aciertos: 430  
+		Accesos: 362529  
+		Aciertos: 547  
 		Porcentaje de acierto: 0
+	Ciclos: 18874385
