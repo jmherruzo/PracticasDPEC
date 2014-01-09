@@ -7,14 +7,14 @@
 #define EVENT_COUNT 4
 #define TEST_NUM 10
 
-float A[TAM][TAM],  B[TAM][TAM];
+float A[TAM][TAM], PAD[16], B[TAM][TAM+16];
 
 //Inicializa la matriz B
 void iniciarMatrizB()
 {
   int i,j;
-  for(i=0;i<2000;i++)
-    for(j=0;j<2000;j++)
+  for(i=0;i<TAM;i++)
+    for(j=0;j<TAM;j++)
     {
       B[i][j]=i*j;
       A[i][j]=i*j;
@@ -28,16 +28,6 @@ void bucle()
   
   for(i=0;i<BUCLE;i++)
     for(j=0;j<BUCLE;j++)
-      A[i][j]=B[j][i];
-}
-
-//Realiza el bucle con los coeficientes i j permutados
-void buclePermutado()
-{
-  int i,j;
-  
-  for(j=0;j<BUCLE;j++)
-    for(i=0;i<BUCLE;i++)
       A[i][j]=B[j][i];
 }
 
@@ -80,7 +70,7 @@ int main()
     }
     
     
-    //iniciarMatrizB();
+    iniciarMatrizB();
 
     printf("\n --------  Prueba con bucle original ---------\n\n");
   
@@ -109,7 +99,7 @@ int main()
 
 	printf("Prueba %d:\n\tL1 ->  Fallos: %lld\n", i, values[0]);
 	printf("\tL2 -> Accesos: %lld  Aciertos: %lld\n",  values[3], values[2]);
-	printf("\tCiclos: %lld", values[1]);
+	printf("\tCiclos: %lld\n", values[1]);
     }
     
     //Calculamos los valores medios:
@@ -124,57 +114,7 @@ int main()
 	   totales[3], totales[2], 100*totales[2]/(totales[3]));
     printf("\tCiclos: %lld\n", totales[1]);
     
-    
-    
-    
-    printf("\n --------  Prueba con bucle permutado --------- \n\n");
 
-    for(i=0; i<TEST_NUM; i++)
-    {
-      
-	//Iniciamos la cuenta de eventos
-	if (PAPI_start_counters(events, EVENT_COUNT) != PAPI_OK)
-	{
-	    fprintf(stderr, "ERROR Starting counters!\n");
-	    exit(1);
-	}
-	
-	
-	buclePermutado();
-	
-	//Leemos el valor de un contador:
-	if (PAPI_stop_counters(values, EVENT_COUNT) != PAPI_OK)
-	{
-	    fprintf(stderr, "ERROR Reading counters!\n");
-	    exit(1);
-	}
-      
-      	for(j=0; j<EVENT_COUNT; j++)
-	{
-	  totalesPerm[j]+=values[j];      
-	}
-	
-	printf("Prueba %d:\n\tL1 ->  Fallos: %lld\n", i, values[0]);
-	printf("\tL2 -> Accesos: %lld  Aciertos: %lld\n",  values[3], values[2]);
-	printf("\tCiclos: %lld", values[1]);
-
-    }
-
-    //Calculamos los valores medios:
-    for(i=0; i<EVENT_COUNT; i++)
-    {
-      totalesPerm[i] = totalesPerm[i]/TEST_NUM;
-    
-    }
-    
-
-    
-    printf("\nValores medios:\n");
-    printf("\tCaché L1: \n\t\tFallos: %lld\n",  totalesPerm[0]);
-    printf("\tCaché L2:\n\t\tAccesos: %lld  \n\t\tAciertos: %lld  \n\t\tPorcentaje de acierto: %lld\n",
-	   totalesPerm[3], totalesPerm[2], 100*totalesPerm[2]/(totalesPerm[3]));
-    printf("\tCiclos: %lld\n", totalesPerm[1]);
-    
     
     return 0;
     

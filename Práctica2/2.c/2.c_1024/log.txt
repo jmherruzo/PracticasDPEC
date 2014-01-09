@@ -2,83 +2,41 @@
  --------  Prueba con bucle original ---------
 
 Prueba 0:
-	L1 ->  Fallos: 1352
-	L2 -> Accesos: 1352  Aciertos: 994
-	Ciclos: 6648881Prueba 1:
-	L1 ->  Fallos: 23100
-	L2 -> Accesos: 23100  Aciertos: 22094
-	Ciclos: 5957665Prueba 2:
-	L1 ->  Fallos: 23113
-	L2 -> Accesos: 23113  Aciertos: 22382
-	Ciclos: 6031564Prueba 3:
-	L1 ->  Fallos: 23726
-	L2 -> Accesos: 23726  Aciertos: 22561
-	Ciclos: 6156257Prueba 4:
-	L1 ->  Fallos: 23197
-	L2 -> Accesos: 23197  Aciertos: 21818
-	Ciclos: 6397829Prueba 5:
-	L1 ->  Fallos: 23153
-	L2 -> Accesos: 23153  Aciertos: 22119
-	Ciclos: 6633085Prueba 6:
-	L1 ->  Fallos: 23134
-	L2 -> Accesos: 23134  Aciertos: 22283
-	Ciclos: 6118566Prueba 7:
-	L1 ->  Fallos: 23075
-	L2 -> Accesos: 23075  Aciertos: 22130
-	Ciclos: 5881153Prueba 8:
-	L1 ->  Fallos: 23101
-	L2 -> Accesos: 23101  Aciertos: 21961
-	Ciclos: 5822322Prueba 9:
-	L1 ->  Fallos: 23125
-	L2 -> Accesos: 23125  Aciertos: 22163
-	Ciclos: 5854586
+	L1 ->  Fallos: 384366
+	L2 -> Accesos: 384366  Aciertos: 486
+	Ciclos: 9282780Prueba 1:
+	L1 ->  Fallos: 383808
+	L2 -> Accesos: 383808  Aciertos: 124
+	Ciclos: 8082049Prueba 2:
+	L1 ->  Fallos: 383805
+	L2 -> Accesos: 383805  Aciertos: 110
+	Ciclos: 8530157Prueba 3:
+	L1 ->  Fallos: 383808
+	L2 -> Accesos: 383808  Aciertos: 121
+	Ciclos: 8470858Prueba 4:
+	L1 ->  Fallos: 384184
+	L2 -> Accesos: 384184  Aciertos: 478
+	Ciclos: 8640206Prueba 5:
+	L1 ->  Fallos: 383847
+	L2 -> Accesos: 383847  Aciertos: 138
+	Ciclos: 8282591Prueba 6:
+	L1 ->  Fallos: 383805
+	L2 -> Accesos: 383805  Aciertos: 121
+	Ciclos: 8283933Prueba 7:
+	L1 ->  Fallos: 383843
+	L2 -> Accesos: 383843  Aciertos: 135
+	Ciclos: 8225290Prueba 8:
+	L1 ->  Fallos: 383844
+	L2 -> Accesos: 383844  Aciertos: 131
+	Ciclos: 8204055Prueba 9:
+	L1 ->  Fallos: 383814
+	L2 -> Accesos: 383814  Aciertos: 127
+	Ciclos: 8171126
 Valores medios:
 	Caché L1: 
-		Fallos: 21007
+		Fallos: 383912
 	Caché L2:
-		Accesos: 21007  
-		Aciertos: 20050  
-		Porcentaje de acierto: 95
-	Ciclos: 6150190
-
- --------  Prueba con bucle permutado --------- 
-
-Prueba 0:
-	L1 ->  Fallos: 362656
-	L2 -> Accesos: 362656  Aciertos: 686
-	Ciclos: 18759066Prueba 1:
-	L1 ->  Fallos: 362137
-	L2 -> Accesos: 362137  Aciertos: 262
-	Ciclos: 18688536Prueba 2:
-	L1 ->  Fallos: 362256
-	L2 -> Accesos: 362256  Aciertos: 363
-	Ciclos: 18697241Prueba 3:
-	L1 ->  Fallos: 362216
-	L2 -> Accesos: 362216  Aciertos: 280
-	Ciclos: 18629929Prueba 4:
-	L1 ->  Fallos: 362393
-	L2 -> Accesos: 362393  Aciertos: 441
-	Ciclos: 18697802Prueba 5:
-	L1 ->  Fallos: 362182
-	L2 -> Accesos: 362182  Aciertos: 246
-	Ciclos: 18700746Prueba 6:
-	L1 ->  Fallos: 362275
-	L2 -> Accesos: 362275  Aciertos: 344
-	Ciclos: 18675153Prueba 7:
-	L1 ->  Fallos: 362772
-	L2 -> Accesos: 362772  Aciertos: 814
-	Ciclos: 18614989Prueba 8:
-	L1 ->  Fallos: 362372
-	L2 -> Accesos: 362372  Aciertos: 434
-	Ciclos: 18736029Prueba 9:
-	L1 ->  Fallos: 362185
-	L2 -> Accesos: 362185  Aciertos: 291
-	Ciclos: 18617517
-Valores medios:
-	Caché L1: 
-		Fallos: 362344
-	Caché L2:
-		Accesos: 362344  
-		Aciertos: 416  
+		Accesos: 383912  
+		Aciertos: 197  
 		Porcentaje de acierto: 0
-	Ciclos: 18681700
+	Ciclos: 8417304

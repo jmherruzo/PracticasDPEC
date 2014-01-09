@@ -2,83 +2,41 @@
  --------  Prueba con bucle original ---------
 
 Prueba 0:
-	L1 ->  Fallos: 16650395
-	L2 -> Accesos: 16650395  Aciertos: 16279165
-	Ciclos: 470425872Prueba 1:
-	L1 ->  Fallos: 17047270
-	L2 -> Accesos: 17047270  Aciertos: 16820637
-	Ciclos: 451600373Prueba 2:
-	L1 ->  Fallos: 17047490
-	L2 -> Accesos: 17047490  Aciertos: 16822318
-	Ciclos: 450796330Prueba 3:
-	L1 ->  Fallos: 17047838
-	L2 -> Accesos: 17047838  Aciertos: 16818882
-	Ciclos: 450832833Prueba 4:
-	L1 ->  Fallos: 17047999
-	L2 -> Accesos: 17047999  Aciertos: 16820188
-	Ciclos: 449815492Prueba 5:
-	L1 ->  Fallos: 17047520
-	L2 -> Accesos: 17047520  Aciertos: 16819254
-	Ciclos: 450291885Prueba 6:
-	L1 ->  Fallos: 17047712
-	L2 -> Accesos: 17047712  Aciertos: 16819239
-	Ciclos: 450403330Prueba 7:
-	L1 ->  Fallos: 17047319
-	L2 -> Accesos: 17047319  Aciertos: 16820789
-	Ciclos: 450362717Prueba 8:
-	L1 ->  Fallos: 17047705
-	L2 -> Accesos: 17047705  Aciertos: 16820413
-	Ciclos: 450542108Prueba 9:
-	L1 ->  Fallos: 17047696
-	L2 -> Accesos: 17047696  Aciertos: 16819280
-	Ciclos: 450350152
+	L1 ->  Fallos: 6254581
+	L2 -> Accesos: 6254581  Aciertos: 1973746
+	Ciclos: 181107449Prueba 1:
+	L1 ->  Fallos: 6253987
+	L2 -> Accesos: 6253987  Aciertos: 1973224
+	Ciclos: 182259181Prueba 2:
+	L1 ->  Fallos: 6254061
+	L2 -> Accesos: 6254061  Aciertos: 1972978
+	Ciclos: 179419803Prueba 3:
+	L1 ->  Fallos: 6253750
+	L2 -> Accesos: 6253750  Aciertos: 1972867
+	Ciclos: 181196616Prueba 4:
+	L1 ->  Fallos: 6253359
+	L2 -> Accesos: 6253359  Aciertos: 1970962
+	Ciclos: 176172529Prueba 5:
+	L1 ->  Fallos: 6253706
+	L2 -> Accesos: 6253706  Aciertos: 1972561
+	Ciclos: 159466286Prueba 6:
+	L1 ->  Fallos: 6253967
+	L2 -> Accesos: 6253967  Aciertos: 1973184
+	Ciclos: 182644683Prueba 7:
+	L1 ->  Fallos: 6254014
+	L2 -> Accesos: 6254014  Aciertos: 1973292
+	Ciclos: 181749930Prueba 8:
+	L1 ->  Fallos: 6254015
+	L2 -> Accesos: 6254015  Aciertos: 1973271
+	Ciclos: 177899891Prueba 9:
+	L1 ->  Fallos: 6253980
+	L2 -> Accesos: 6253980  Aciertos: 1973116
+	Ciclos: 172012898
 Valores medios:
 	Caché L1: 
-		Fallos: 17007894
+		Fallos: 6253942
 	Caché L2:
-		Accesos: 17007894  
-		Aciertos: 16766016  
-		Porcentaje de acierto: 98
-	Ciclos: 452542109
-
- --------  Prueba con bucle permutado --------- 
-
-Prueba 0:
-	L1 ->  Fallos: 33116045
-	L2 -> Accesos: 33116045  Aciertos: 15598750
-	Ciclos: 1300484916Prueba 1:
-	L1 ->  Fallos: 33107955
-	L2 -> Accesos: 33107955  Aciertos: 15577905
-	Ciclos: 1319967238Prueba 2:
-	L1 ->  Fallos: 33106286
-	L2 -> Accesos: 33106286  Aciertos: 15575839
-	Ciclos: 1311533640Prueba 3:
-	L1 ->  Fallos: 33107741
-	L2 -> Accesos: 33107741  Aciertos: 15576189
-	Ciclos: 1322938321Prueba 4:
-	L1 ->  Fallos: 33107384
-	L2 -> Accesos: 33107384  Aciertos: 15569105
-	Ciclos: 1304869086Prueba 5:
-	L1 ->  Fallos: 33109053
-	L2 -> Accesos: 33109053  Aciertos: 15582937
-	Ciclos: 1323608058Prueba 6:
-	L1 ->  Fallos: 33105479
-	L2 -> Accesos: 33105479  Aciertos: 15540353
-	Ciclos: 1312194534Prueba 7:
-	L1 ->  Fallos: 33108249
-	L2 -> Accesos: 33108249  Aciertos: 15576990
-	Ciclos: 1324218057Prueba 8:
-	L1 ->  Fallos: 33105542
-	L2 -> Accesos: 33105542  Aciertos: 15559157
-	Ciclos: 1284952360Prueba 9:
-	L1 ->  Fallos: 33108548
-	L2 -> Accesos: 33108548  Aciertos: 15573117
-	Ciclos: 1325499216
-Valores medios:
-	Caché L1: 
-		Fallos: 33108228
-	Caché L2:
-		Accesos: 33108228  
-		Aciertos: 15573034  
-		Porcentaje de acierto: 47
-	Ciclos: 1313026542
+		Accesos: 6253942  
+		Aciertos: 1972920  
+		Porcentaje de acierto: 31
+	Ciclos: 177392926

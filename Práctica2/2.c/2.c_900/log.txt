@@ -2,83 +2,41 @@
  --------  Prueba con bucle original ---------
 
 Prueba 0:
-	L1 ->  Fallos: 2014
-	L2 -> Accesos: 2014  Aciertos: 1691
-	Ciclos: 6545851Prueba 1:
-	L1 ->  Fallos: 23333
-	L2 -> Accesos: 23333  Aciertos: 21640
-	Ciclos: 5948739Prueba 2:
-	L1 ->  Fallos: 23290
-	L2 -> Accesos: 23290  Aciertos: 21795
-	Ciclos: 5951337Prueba 3:
-	L1 ->  Fallos: 23438
-	L2 -> Accesos: 23438  Aciertos: 21766
-	Ciclos: 6203698Prueba 4:
-	L1 ->  Fallos: 23449
-	L2 -> Accesos: 23449  Aciertos: 21975
-	Ciclos: 6801643Prueba 5:
-	L1 ->  Fallos: 23484
-	L2 -> Accesos: 23484  Aciertos: 22138
-	Ciclos: 6799278Prueba 6:
-	L1 ->  Fallos: 23345
-	L2 -> Accesos: 23345  Aciertos: 21875
-	Ciclos: 6054799Prueba 7:
-	L1 ->  Fallos: 23280
-	L2 -> Accesos: 23280  Aciertos: 21849
-	Ciclos: 5948087Prueba 8:
-	L1 ->  Fallos: 23356
-	L2 -> Accesos: 23356  Aciertos: 21794
-	Ciclos: 5970719Prueba 9:
-	L1 ->  Fallos: 23335
-	L2 -> Accesos: 23335  Aciertos: 21642
-	Ciclos: 5963584
+	L1 ->  Fallos: 384791
+	L2 -> Accesos: 384791  Aciertos: 351493
+	Ciclos: 7397213Prueba 1:
+	L1 ->  Fallos: 382979
+	L2 -> Accesos: 382979  Aciertos: 350246
+	Ciclos: 6501183Prueba 2:
+	L1 ->  Fallos: 383067
+	L2 -> Accesos: 383067  Aciertos: 350415
+	Ciclos: 6338092Prueba 3:
+	L1 ->  Fallos: 382495
+	L2 -> Accesos: 382495  Aciertos: 350055
+	Ciclos: 6306345Prueba 4:
+	L1 ->  Fallos: 382709
+	L2 -> Accesos: 382709  Aciertos: 349845
+	Ciclos: 6334244Prueba 5:
+	L1 ->  Fallos: 382814
+	L2 -> Accesos: 382814  Aciertos: 350186
+	Ciclos: 6324912Prueba 6:
+	L1 ->  Fallos: 382623
+	L2 -> Accesos: 382623  Aciertos: 349980
+	Ciclos: 6417245Prueba 7:
+	L1 ->  Fallos: 382678
+	L2 -> Accesos: 382678  Aciertos: 350198
+	Ciclos: 6294872Prueba 8:
+	L1 ->  Fallos: 382669
+	L2 -> Accesos: 382669  Aciertos: 350250
+	Ciclos: 6307241Prueba 9:
+	L1 ->  Fallos: 394796
+	L2 -> Accesos: 394796  Aciertos: 361251
+	Ciclos: 7135737
 Valores medios:
 	Caché L1: 
-		Fallos: 21232
+		Fallos: 384162
 	Caché L2:
-		Accesos: 21232  
-		Aciertos: 19816  
-		Porcentaje de acierto: 93
-	Ciclos: 6218773
-
- --------  Prueba con bucle permutado --------- 
-
-Prueba 0:
-	L1 ->  Fallos: 422242
-	L2 -> Accesos: 422242  Aciertos: 398767
-	Ciclos: 16234668Prueba 1:
-	L1 ->  Fallos: 422684
-	L2 -> Accesos: 422684  Aciertos: 398998
-	Ciclos: 16234299Prueba 2:
-	L1 ->  Fallos: 422462
-	L2 -> Accesos: 422462  Aciertos: 398801
-	Ciclos: 16234380Prueba 3:
-	L1 ->  Fallos: 422932
-	L2 -> Accesos: 422932  Aciertos: 399324
-	Ciclos: 16239763Prueba 4:
-	L1 ->  Fallos: 422361
-	L2 -> Accesos: 422361  Aciertos: 398804
-	Ciclos: 16253196Prueba 5:
-	L1 ->  Fallos: 421916
-	L2 -> Accesos: 421916  Aciertos: 398429
-	Ciclos: 16273936Prueba 6:
-	L1 ->  Fallos: 422589
-	L2 -> Accesos: 422589  Aciertos: 398869
-	Ciclos: 16230625Prueba 7:
-	L1 ->  Fallos: 426050
-	L2 -> Accesos: 426050  Aciertos: 401660
-	Ciclos: 16579184Prueba 8:
-	L1 ->  Fallos: 422494
-	L2 -> Accesos: 422494  Aciertos: 398854
-	Ciclos: 16259551Prueba 9:
-	L1 ->  Fallos: 422077
-	L2 -> Accesos: 422077  Aciertos: 398417
-	Ciclos: 16219054
-Valores medios:
-	Caché L1: 
-		Fallos: 422780
-	Caché L2:
-		Accesos: 422780  
-		Aciertos: 399092  
-		Porcentaje de acierto: 94
-	Ciclos: 16275865
+		Accesos: 384162  
+		Aciertos: 351391  
+		Porcentaje de acierto: 91
+	Ciclos: 6535708
