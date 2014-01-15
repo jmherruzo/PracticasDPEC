@@ -5,7 +5,7 @@
 #define TAM 1024
 #define BUCLE 600
 #define EVENT_COUNT 4
-#define TEST_NUM 10
+#define TEST_NUM 1
 
 float A[TAM][TAM], B[TAM][TAM];
 
@@ -70,7 +70,7 @@ int main()
     }
     
     
-    iniciarMatrizB();
+    //iniciarMatrizB();
 
     printf("\n --------  Prueba con bucle original ---------\n\n");
   

@@ -2,33 +2,37 @@
 #include <papi.h>
 #include <stdlib.h>
 
-#define TAM 900
-#define BUCLE 600
+#define TAM 2000
 #define EVENT_COUNT 4
-#define TEST_NUM 1
+#define TEST_NUM 4
 
-float A[TAM][TAM], B[TAM][TAM];
+float A[TAM][TAM], B[TAM][TAM], C[TAM][TAM];
 
-//Inicializa la matriz B
-void iniciarMatrizB()
+//Inicializa las matrices
+void iniciarMatrices()
 {
   int i,j;
   for(i=0;i<TAM;i++)
     for(j=0;j<TAM;j++)
     {
-      B[i][j]=i*j;
-      A[i][j]=i*j;
+	 C[i][j]=i*j;
+     B[i][j]=i*j;
+     A[i][j]=i*j;
     }
 }
 
-//Realiza el bucle con los coeficientes i j colocados en la mejor posición
+//Multiplica las dos matrices
 void bucle()
 {
-  int i,j;
-  
-  for(i=0;i<BUCLE;i++)
-    for(j=0;j<BUCLE;j++)
-      A[i][j]=B[j][i];
+	
+int i,j,k;
+for (i = 0 ; i < TAM ; i++ )
+    for (j = 0 ; j < TAM ; j++ ) 
+    {
+        C[i][j] = 0 ;
+        for (k = 0 ; k < TAM ; k++ )
+            C[i][j] += A[i][k] * B[k][j];
+	}
 }
 
 int main()
@@ -70,7 +74,7 @@ int main()
     }
     
     
-    //iniciarMatrizB();
+    iniciarMatrices();
 
     printf("\n --------  Prueba con bucle original ---------\n\n");
   
@@ -99,7 +103,7 @@ int main()
 
 	printf("Prueba %d:\n\tL1 ->  Fallos: %lld\n", i, values[0]);
 	printf("\tL2 -> Accesos: %lld  Aciertos: %lld\n",  values[3], values[2]);
-	printf("\tCiclos: %lld", values[1]);
+	printf("\tCiclos: %lld\n", values[1]);
     }
     
     //Calculamos los valores medios:
