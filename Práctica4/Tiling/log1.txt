@@ -1,0 +1,32 @@
+
+ --------  Prueba con bucle original ---------
+
+Prueba 0:
+	L1 ->  Fallos: 505052498
+	L2 -> Accesos: 505052498  Aciertos: 483942720
+	Ciclos: 191230599554
+Prueba 1:
+	L1 ->  Fallos: 503017390
+	L2 -> Accesos: 503017390  Aciertos: 481978534
+	Ciclos: 190381222486
+Prueba 2:
+	L1 ->  Fallos: 503078481
+	L2 -> Accesos: 503078481  Aciertos: 481748664
+	Ciclos: 190359569781
+Prueba 3:
+	L1 ->  Fallos: 503793398
+	L2 -> Accesos: 503793398  Aciertos: 482051998
+	Ciclos: 190632041966
+Prueba 4:
+	L1 ->  Fallos: 505100448
+	L2 -> Accesos: 505100448  Aciertos: 482637408
+	Ciclos: 191095597244
+
+Valores medios:
+	Caché L1: 
+		Fallos: 504008443
+	Caché L2:
+		Accesos: 504008443  
+		Aciertos: 482471864  
+		Porcentaje de acierto: 95
+	Ciclos: 190739806206
