@@ -1,32 +1,28 @@
 
  --------  Prueba con bucle original ---------
 
-Prueba 0 - Bloque 4:
-	L1 ->  Fallos: 250973935
-	L2 -> Accesos: 250973935  Aciertos: 240458601
-	Ciclos: 209133851084
-Prueba 1 - Bloque 16:
-	L1 ->  Fallos: 63719792
-	L2 -> Accesos: 63719792  Aciertos: 14693584
-	Ciclos: 195525506150
-Prueba 2 - Bloque 50:
-	L1 ->  Fallos: 44910964
-	L2 -> Accesos: 44910964  Aciertos: 24298978
-	Ciclos: 190877144484
-Prueba 3 - Bloque 100:
-	L1 ->  Fallos: 632806260
-	L2 -> Accesos: 632806260  Aciertos: 618664818
-	Ciclos: 195479233312
-Prueba 4 - Bloque 2000:
-	L1 ->  Fallos: 506935368
-	L2 -> Accesos: 506935368  Aciertos: 484511091
-	Ciclos: 194083565670
+Prueba 0:
+	L1 ->  Fallos: 45721443
+	L2 -> Accesos: 45721443  Aciertos: 25222020
+	Ciclos: 192824054956
+Prueba 1:
+	L1 ->  Fallos: 56514757
+	L2 -> Accesos: 56514757  Aciertos: 33200478
+	Ciclos: 194768289553
+Prueba 2:
+	L1 ->  Fallos: 51967943
+	L2 -> Accesos: 51967943  Aciertos: 30278894
+	Ciclos: 194014469574
+Prueba 3:
+	L1 ->  Fallos: 63324362
+	L2 -> Accesos: 63324362  Aciertos: 37763985
+	Ciclos: 195782306339
 
 Valores medios:
 	Caché L1: 
-		Fallos: 299869263
+		Fallos: 54382126
 	Caché L2:
-		Accesos: 299869263  
-		Aciertos: 276525414  
-		Porcentaje de acierto: 92
-	Ciclos: 197019860140
+		Accesos: 54382126  
+		Aciertos: 31616344  
+		Porcentaje de acierto: 58
+	Ciclos: 194347280105

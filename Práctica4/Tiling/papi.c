@@ -4,11 +4,11 @@
 
 #define TAM 2000
 #define EVENT_COUNT 4
-#define TEST_NUM 5
+#define TEST_NUM 4
 //#define BLOCKSIZE 16
 
 float A[TAM][TAM], B[TAM][TAM], C[TAM][TAM];
-int blocksize = 2000;
+int blocksize = 50;
 //Inicializa las matrices
 void iniciarMatrices()
 {
@@ -17,8 +17,8 @@ void iniciarMatrices()
     for(j=0;j<TAM;j++)
     {
 	 C[i][j]=0;
-     B[i][j]=0;
-     A[i][j]=0;
+     B[i][j]=i*j;
+     A[i][j]=i+j;
     }
 }
 
@@ -27,10 +27,10 @@ void bucle()
 {
 	
 int i,j,k,bi,bj,bk;
-//for (bi =0; bi <TAM; bi += blocksize )
+for (bi =0; bi <TAM; bi += blocksize )
 	for(bk =0; bk <TAM; bk += blocksize )
 		for (bj =0; bj <TAM; bj += blocksize )
-			for (i=0; i< TAM ; i++)
+			for (i=0; i< blocksize ; i++)
 				for (k=0; k< blocksize ; k++)
 					for(j=0; j< blocksize ; j++)
 						C[bi+i][ bj+j] += A[bi+i][ bk+k]*B[bk+k][ bj+j];
@@ -41,7 +41,6 @@ int main()
     int retval;
     int i,j;
     int EventSet = PAPI_NULL;
-	int blocksizes[] = {4, 16, 50, 100, 2000};
     long long totales[EVENT_COUNT], totalesPerm[EVENT_COUNT];
     
     int events[] = {PAPI_L1_DCM,  PAPI_TOT_CYC, PAPI_L2_DCH, PAPI_L2_DCA};
@@ -81,7 +80,6 @@ int main()
   
     for(i=0; i<TEST_NUM; i++)
     {
-	blocksize = blocksizes[i];
 	//Iniciamos la cuenta de eventos
 	if (PAPI_start_counters(events, EVENT_COUNT) != PAPI_OK)
 	{
@@ -103,7 +101,7 @@ int main()
 	  totales[j]+=values[j];      
 	}
 
-	printf("Prueba %d - Bloque %i:\n\tL1 ->  Fallos: %lld\n", i, blocksize,values[0]);
+	printf("Prueba %d:\n\tL1 ->  Fallos: %lld\n", i, values[0]);
 	printf("\tL2 -> Accesos: %lld  Aciertos: %lld\n",  values[3], values[2]);
 	printf("\tCiclos: %lld\n", values[1]);
     }
